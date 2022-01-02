@@ -5,32 +5,57 @@
     <title>cv Ira Vasiliuk</title>
 </head>
 <body>
-    <h1> Vasiliuk Iryna</h1>
-    <h2>Contacts</h2>
+  <header>
+    <nav class="nav">
+      <ul>
+        <li><a href="#Contacts">Contact information</a></li>
+        <li><a href="#About-me">About me</a></li>
+        <li><a href="#Skills">Skills</a> </li> 
+        <li><a href="#Code-example">Code example</a></li>  
+        <li><a href="#English">English</a></li>
+      </ul>
+    </nav>
+    <h1>Vasiliuk Iryna</h1>
+  </header>
+  <main>
+    <h2 id="Contacts">Contacts</h2>
     <ul>
     <li>Location: Minsk, Belarus</li> 
     <li>Phone: +375 29 747-63-27</li> 
     <li>Email: vasilyuk_irishka@mail.ru</li> 
     <li>GitHub: ira2701 </li>
     </ul>
-    <h2>About Me</h2> 
+    <h2 id="About-me">About Me</h2> 
     <p>
     After graduation, I was sent for the distribution to MAZ (Minsk Automobile Plant). However, over a six-month period, I had an understanding of dissatisfaction with the need for development and self-identification at the current place of work. So, I made a decision to take courses for the subsequent change of the field of activity or to use that skills for the development in the current field of activity.</p>
     <p>I know that a mathematical mindset, logical thinking, hard work and a desire to change the field of activity will help me to overcome the difficulties of learning and understanding work processes as well as in becoming a competitive Frontend Developer. </p>
-    <h2> Skills </h2>
+    <h2 id="Skills"> Skills </h2>
     <ul>
     <li>HTML beginer</li>
     <li>CSS beginer</li>
     <li>JS beginer</li>
     <li>Git beginer</li>
     </ul>
-    <h2>Code Example</h2>
+    <h2 id="Code-example">Code Example</h2>
     <pre>
-        function sum(firstNumber, secondNumber) { 
-          return firstNumber + secondNumber;
+      function understands_video() {
+        return !!document.createElement('video').canPlayType; // boolean
+        }
+        
+        if ( !understands_video() ) {
+        // Must be older browser or IE.
+        // Maybe do something like hide custom
+        // HTML5 controls. Or whatever...
+        videoControls.style.display = 'none';
         }
       </pre>
-    <h2>English</h2>
-    <p> Intermediate/Upper-intermediate</p>    
+    <h2 id="English">English</h2>
+    <p> Intermediate/Upper-intermediate</p>
+    </main>
+    <footer>
+      <a href="https://github.com/ira2701"><img src="assets/github.png" alt="github"></a>
+      <span>2021</span>
+      <a href="https://rs.school/js/"><img src="assets/rs_school_js.svg" alt="rs-school"></a>
+    </footer>  
 </body>
 </html>
